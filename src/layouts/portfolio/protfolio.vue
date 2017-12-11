@@ -1,0 +1,3 @@
+<template>
+    <CommingSoon></CommingSoon>
+</template>

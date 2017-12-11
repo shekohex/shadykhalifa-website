@@ -1,0 +1,8 @@
+@import 'base';
+@import './effects/vue-router';
+@import 'prism';
+@import 'variables';
+// --------------
+.emoji {
+    height: $emoji-size;
+}

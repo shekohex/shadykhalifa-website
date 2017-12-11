@@ -1,0 +1,19 @@
+@import 'variables';
+/*
+ * Base Variables
+ * ==============
+ *
+ */
+
+ :root {
+  --baseline: 1.7778rem;
+  --small: .875rem;
+  --site-color: $site-color;
+  --text-color: #000207;
+  --meta-color: #747474;
+  --monospace: "Input Mono", "Source Code Pro", "Monaco", monospace;
+  --sans-serif-fallback: "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --sans-serif: "Dosis", var(--sans-serif-fallback);
+  --serif-fallback: "Georgia", "Times New Roman", serif;
+  --serif: "Open Sans", var(--serif-fallback);
+}
