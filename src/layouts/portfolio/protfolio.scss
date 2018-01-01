@@ -1,0 +1,10 @@
+h2 {
+    font-size: 1.711rem;
+}
+h3:before {
+    content: "#";
+}
+h3:after {
+    content:"\a";
+    white-space: pre;
+}

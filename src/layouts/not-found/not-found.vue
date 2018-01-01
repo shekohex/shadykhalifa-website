@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <h1 class="mb-2">Not found...</h1>
-        <p>Sorry :( </p>
-    </div>
+    <article class="hentry">
+        <div class="h1 page__content">
+            <p v-html="md(content)"></p>
+        </div>
+  </article>
 </template>

@@ -1,9 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "build": "1",
     "debug": false,
     "repo": "shekohex/shekohex.github.io",
     "path": "_posts",
     "branch": "master",
-    "aboutmehash": "efea39c352f0a0ec67f8790317b9213c74f826bb"
+    "aboutmehash": "efea39c352f0a0ec67f8790317b9213c74f826bb",
+    "notfoundhash": "409d118a0c10f9a514eb3ddda9bbc2811f6d27bf",
+    "portfoliohash": "5e7d9aeea7f14b0a1b3e056b30cf43a1bb31a4c8"
+
 }

@@ -5,11 +5,11 @@ export class ContentService {
     private getContentUrl(hash: string) {
         return `https://api.github.com/repos/${Config.repo}/git/blobs/${hash}`
     }
-    getContentDetail(hash: string) {
+    getContentDetail(hash: string, cacheKey: string) {
+        cacheKey += hash
         const httpOpts = {
             headers: { Accept: 'application/vnd.github.v3.raw' }
         }
-        const cacheKey = 'about-me-' + hash;
         if (CacheMaker.has(cacheKey)) {
             return Promise.resolve(CacheMaker.getByKey(cacheKey))
         } else {
