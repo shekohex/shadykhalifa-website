@@ -2,7 +2,7 @@ h2 {
     font-size: 1.711rem;
 }
 h3:before {
-    content: "#";
+    content: "#"!important;
 }
 h3:after {
     content:"\a";

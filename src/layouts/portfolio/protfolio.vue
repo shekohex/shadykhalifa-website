@@ -13,5 +13,5 @@
   </article>
 </div>
 </template>
-<style lang="scss" src="./protfolio.scss" module></style>
+<style lang="scss" src="./protfolio.scss" scoped></style>
 
