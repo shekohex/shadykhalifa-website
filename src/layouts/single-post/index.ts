@@ -15,24 +15,24 @@ export default class SinglePost extends Vue {
   content: string = '### Loading Post ..';
   postService: PostService = new PostService();
 
-  created () {
-    this.loadPost()
+  created() {
+    this.loadPost();
   }
 
   loadPost() {
-    this.postService.getPostDetail(this.$route.params.hash)
+    this.postService
+      .getPostDetail(this.$route.params.hash)
       .then(text => {
         const content = fm(text);
         this.content = content.body;
         this.title = content.attributes['title'];
         this.date = content.attributes['date'];
         // Set window title
-        window.document.title = `${this.title} | Shady Khalifa`
+        window.document.title = `${this.title} | Shady Khalifa`;
       })
       .catch(err => {
-        console.error('[getPostDetail]', err)
-        this.$router.replace('/')
-      })
+        console.error('[getPostDetail]', err);
+        this.$router.replace('/');
+      });
   }
 }
-

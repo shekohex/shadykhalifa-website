@@ -5,7 +5,7 @@
       <router-link
           to="/"
           class="plainlink">
-          Shady Khalifa
+          {{ myName }}
         </router-link>
     </a>
   <nav class="site__nav" role="navigation">
@@ -22,6 +22,13 @@
           to="portfolio"
           class="plainlink">
           Portfolio
+        </router-link>
+      </li>
+      <li>
+         <router-link
+          to="feedback"
+          class="plainlink">
+          Feedback
         </router-link>
       </li>
     </ul>

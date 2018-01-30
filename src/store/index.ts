@@ -4,21 +4,14 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 // root state object
-const state = {
-
-};
+const state = {};
 
 // mutations are operations that actually mutates the state.
-const mutations = {
+const mutations = {};
 
-};
+const actions = {};
 
-const actions = {
-};
-
-const getters = {
-
-};
+const getters = {};
 
 export default new Vuex.Store({
   state,

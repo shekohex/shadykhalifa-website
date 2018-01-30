@@ -5,7 +5,7 @@ import Blog from './layouts/blog';
 import SinglePost from './layouts/single-post';
 import Portfolio from './layouts/portfolio';
 import NotFound from './layouts/not-found';
-
+import NoInternet from './layouts/no-internet';
 export const routes = [
   {
     path: '/',
@@ -26,6 +26,11 @@ export const routes = [
     path: '/portfolio',
     name: 'portfolio',
     component: Portfolio
+  },
+  {
+    path: '/no-internet',
+    name: 'no-internet',
+    component: NoInternet
   },
   {
     path: '*',

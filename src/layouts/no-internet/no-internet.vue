@@ -1,0 +1,3 @@
+<template>
+   <NoConnection></NoConnection>
+</template>
